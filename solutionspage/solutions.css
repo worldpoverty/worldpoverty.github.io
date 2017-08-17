@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+}
+
+.howtohelp {
+  font-family: 'Crimson Text', serif;
+  text-align: center;
+}
+
+#donation,
+#volunteerabroad, #volunteernyc {
+  font-family: 'Crimson Text', serif;
+  font-size: 15px;
+  width: 45%;
+  margin: 40px;
+  padding: 20px;
+  background-color: #A9CCE3;
+  border: 4px solid #AEB6BF;
+
+}
+
+#donation {
+  float: right;
+}
+
+#volunteerabroad {
+  float: left;
+}
+
+#volunteernyc {
+  float: right;
+}
+
+p2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+/*#volunteerabroad {
+  font-family: 'Crimson Text', serif;
+  font-size: 20px;
+  float: left;
+  width: 50%;
+  margin: 30px;
+  padding: 10px;
+}*/
+
+
+.howtohelp {
+  font-size: 25px;
+  /*margin: 30px;
+  padding: 10px;*/
+}
+
+.howtohelp {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+.howtohelp h1 {
+   position: absolute;
+   top: 50px;
+   left: 0;
+   width: 100%;
+   color: white;
+}
+
+
+.howtohelp img {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  opacity: 0.8;
+}
+
+#leftsidedonate {
+  font-family: 'Crimson Text', serif;
+  float: left;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvZGFqBVkXmKJt800LF1fh3hKGebixw9uTsaJRU8WGESjI9R3I);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  width: 650px;
+  height: 450px;
+  margin-top: 15px;
+}
+
+#rightsidevolunteer {
+  font-family: 'Crimson Text', serif;
+  float: right;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYJxNN2k-BPLtzlVK12ZqALu43H2vIsV773at1Pt_bK47v8Xtv);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  width: 600px;
+  height: 400px;
+}
+
+#leftsidenyc {
+  font-family: 'Crimson Text', serif;
+  float:left;
+  background-image: url(http://www.richlandlibrary.com/sites/default/files/content/volunteer-1888823_340_1.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  width: 675px;
+  height: 375px;
+  margin-top: 15px;
+}
+
+/* navigation bar */
+
+#header img {
+  width: 110px;
+  height: 110px;
+
+}
+
+li {
+    float: left;
+    list-style-type: none;
+}
+
+#header a {
+    display: block;
+    padding: 50px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+
+}
+#header {
+  background-color: white;
+  position: relative;
+  width: 100%;
+  text-align: center;
+
+}
+#header ul {
+  display: inline-block;
+  font-family: 'Crimson Text', serif;

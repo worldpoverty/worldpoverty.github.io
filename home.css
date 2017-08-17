@@ -1,0 +1,86 @@
+/*#header img {
+  width: 110px;
+  height: 110px;
+
+}
+
+li {
+    float: left;
+    list-style-type: none;
+}
+
+#header a {
+    display: block;
+    padding: 50px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+
+}
+#header {
+  background-color: white;
+  position: relative;
+  width: 100%;
+  text-align: center;
+
+}
+#header ul {
+  display: inline-block;
+  font-family: 'Crimson Text', serif;
+}*/
+
+
+
+/*#backgroundimg img {
+  background-image: url(http://www.ifrc.org/PageFiles/134333/20131010-europe-economic-crisis-main-1.png);
+}*/
+
+
+body {
+  background-size: cover;
+  margin: 0;
+}
+
+.enterhomepage h1 {
+  /*position: absolute;*/
+  font-family: 'Montserrat', sans-serif;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 55px;
+  /*margin-top: 16%;*/
+  color: black;
+  /*background-color: white;*/
+
+
+
+  /*margin-left: 48%;*/
+}
+
+.enterhomepage {
+    position: absolute;
+    top: calc(50% - 137px);
+    background-color: white;
+    opacity: 0.8;
+}
+
+.enterhomepage p {
+  font-size: 25px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  /*margin-top: 15%;*/
+
+}
+
+.enterhomepage a {
+  font-size: 25px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  /*background-color: white;*/
+
+}

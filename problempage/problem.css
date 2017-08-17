@@ -1,0 +1,531 @@
+html {
+   background-color: #ffffff;
+}
+/*#container {
+  width: 1300px;
+}*/
+li {
+    float: left;
+    list-style-type: none;
+}
+#header a {
+    display: block;
+    padding: 50px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+}
+#header {
+  background-color: white;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+#header ul {
+  display: inline-block;
+  font-family: 'Crimson Text', serif;
+}
+#header img {
+  width: 110px;
+  height: 110px;
+}
+/*Basic formatting for text*/
+h1 {
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+  font-size: 40px;
+}
+h2 {
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+  font-size: 40px;
+  background-color: rgb(245, 246, 250);
+  padding: 30px;
+  margin: 0;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+h3 {
+  font-family: 'Crimson Text', serif;
+  font-size: 30px;
+}
+p {
+  font-family: 'Crimson Text', serif;
+  font-size: 20px
+}
+/*Map*/
+#worldmap {
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 50%;
+  padding: 10px;
+}
+/*Uses class "continents" to all of those divs to have the same background color*/
+.continents {
+  background-color: #c0c5ce;
+  padding-bottom: 20px;
+}
+/*AFRICA AFRICA AFRICA AFRICA AFRICA AFRICA AFRICA AFRICA AFRICA AFRICA!!!!!!!!!!*/
+/*Styling for the Africa general information and map section*/
+#africapic {
+  overflow: auto;
+  position: relative;
+}
+#africapic img {
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-top: 23px;
+  background-position: 25px;
+  width: 350px;
+  height: 250px;
+}
+#africainfo p {
+  font-size: 18px;
+  font-family: 'Crimson Text', serif;
+  position: absolute;
+  top: 30%;
+  right: 45px;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  width: 50%;
+}
+/*Styling for African countries*/
+  /*Basic Background Stuff (color/size of div)*/
+.africa1,
+.asia1,
+.southamerica1,
+.northamerica1,
+.europe1,
+.oceania1 {
+  background: #ffffff;
+  height: 400px;
+  overflow: hidden;
+}
+.africa2,
+.asia2,
+.southamerica2,
+.northamerica2,
+.europe2,
+.oceania2 {
+  background-color:	#A9CCE3;
+  height: 400px;
+  overflow: hidden;
+}
+  /*Format for text in <p>*/
+#liberia p {
+
+}
+#liberia h3 {
+  padding-top: 60px;
+}
+.africa2 p,
+.asia1 p,
+.southamerica1 p,
+.africa1 p,
+.asia2 p,
+.southamerica2 p,
+.northamerica1 p,
+.northamerica2 p,
+.europe1 p,
+.europe2 p,
+.oceania1 p,
+.oceania2 p {
+  font-size: 18px;
+  font-family: 'Crimson Text', serif;
+  text-align: left;
+  padding: 15px;
+  max-width: 80%;
+}
+  /*Format for Africa Group 1 photos (left side)*/
+.africa1 img,
+.asia1 img,
+.southamerica1 img,
+.northamerica1 img,
+.europe1 img,
+.oceania1 img {
+  float: right;
+  margin-left: 50px;
+}
+  /*Format for Africa Group 2 photos (right side)*/
+.africa2 img,
+.asia2 img,
+.southamerica2 img,
+.northamerica2 img,
+.europe2 img,
+.oceania2 img {
+  float: left;
+  margin-right: 50px;
+}
+
+.africa1 h3,
+.asia1 h3,
+.southamerica1 h3,
+.northamerica1 h3,
+.europe1 h3,
+.oceania1 h3 {
+  padding-left: 15px;
+}
+/*ASIA ASIA ASIA ASIA ASIA ASIA ASIA ASIA ASIA ASIA ASIA ASIA ASIA ASIA ASIA !!!!!!*/
+/*.asia1 {
+  background-color: #ffffff;
+  height: 350px;
+}
+.asia2 {
+  background-color:#ffffff;
+  height: 350px
+}*/
+#asiapic {
+  overflow: auto;
+  position: relative;
+}
+#asiapic img {
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-top: 4px;
+  background-position: 25px;
+}
+#asiainfo p {
+  font-size: 18px;
+  font-family: 'Crimson Text', serif;
+  position: absolute;
+  top: 70px;
+  right: 45px;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  width: 50%;
+}
+/*.asia1 p {
+  font-size: 18px;
+  font-family: 'Crimson Text', serif;
+  top: 50px;
+  right: 15px;
+  width: 400px;
+  height: 75%;
+  margin-left: 130px;
+  margin-right: auto;
+  width: 300px;
+  bottom: 2px;
+  text-align: left;
+}
+.asia1 img {
+  margin-right: 100px;
+  margin-left: 700px;
+  margin-top: -585px;
+  margin-bottom: 30px;
+}
+  /*Format for Africa Group 2 photos (right side)*/
+/*.asia2 img {
+  margin-right: 600px;
+  margin-left: 200px;
+  margin-top: -685px;
+  margin-bottom: 30px;
+}
+.asia1 h3 {
+  margin-left: 130px;
+}
+.asia2 h3 {
+  margin-left: 850px;
+}
+.asia2 p {
+  font-size: 18px;
+  font-family: 'Crimson Text', serif;
+  top: 50px;
+  right: 45px;
+  width: 400px;
+  height: 75%;
+  margin-left: 850px;
+  margin-right: auto;
+  width: 300px;
+  bottom: 2px;
+  text-align: left;
+}*/
+/*SOUTH AMERICA SOUTH AMERICA SOUTH AMERICA SOUTH AMERICA SOUTH AMERICA SOUTH AMERICA!!!!!!!*/
+/*.southamerica1 {
+  height: 370px;
+  background-color:#ffffff;
+}
+.southamerica2 {
+  background-color:#ffffff;
+  height: 370px;
+}*/
+#southamericapic {
+  overflow: auto;
+  position: relative;
+}
+#southamericapic img {
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-top: 4px;
+  background-position: 25px;
+}
+#southamericainfo p {
+  font-size: 18px;
+  font-family: 'Crimson Text', serif;
+  position: absolute;
+  top: 70px;
+  right: 45px;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  width: 50%;
+}
+/*.southamerica1 p {
+  font-size: 18px;
+  font-family: 'Crimson Text', serif;
+  top: 50px;
+  right: 15px;
+  width: 400px;
+  height: 75%;
+  margin-left: 180px;
+  margin-right: auto;
+  width: 300px;
+  bottom: 2px;
+  text-align: left;
+}
+.southamerica2 p {
+  font-size: 18px;
+  font-family: 'Crimson Text', serif;
+  top: 50px;
+  right: 45px;
+  width: 400px;
+  height: 75%;
+  margin-left: 880px;
+  margin-right: auto;
+  width: 300px;
+  bottom: 2px;
+  text-align: left;
+}
+#Peru img {
+  margin-right: 100px;
+  margin-left: 700px;
+  margin-top: -585px;
+  margin-bottom: 30px;
+}
+.southamerica1 img {
+  margin-right: 100px;
+  margin-left: 700px;
+  margin-top: -585px;
+  margin-bottom: -180px;
+}
+  /*Format for Africa Group 2 photos (right side)*/
+/*.southamerica2 img {
+  margin-right: 600px;
+  margin-left: 200px;
+  margin-top: -685px;
+  margin-bottom: 55px;
+}
+.southamerica1 h3 {
+  margin-left: 180px;
+}
+.southamerica2 h3 {
+  margin-left: 880px;
+}*/
+/*NORTH AMERICA NORTH AMERICA NORTH AMERICA NORTH AMERICA NORTH AMERICA!!!!!!!!*/
+/*.northamerica1 {
+  background: #ffffff;
+  height: 400px;
+}
+.northamerica2 {
+  background-color:	#ffffff;
+  height: 400px;
+}*/
+#northamericapic {
+  overflow: auto;
+  position: relative;
+}
+#northamericapic img {
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-top: 4px;
+  background-position: 25px;
+}
+#northamericainfo p {
+  font-size: 18px;
+  font-family: 'Crimson Text', serif;
+  position: absolute;
+  top: 70px;
+  right: 45px;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  width: 50%;
+}
+  /*Format for text in <p>*/
+/*.northamerica1 p {
+  font-size: 18px;
+  font-family: 'Crimson Text', serif;
+  top: 50px;
+  right: 15px;
+  width: 400px;
+  height: 75%;
+  margin-left: 130px;
+  margin-right: auto;
+  width: 300px;
+  bottom: 2px;
+  text-align: left;
+}
+.northamerica2 p {
+  font-size: 18px;
+  font-family: 'Crimson Text', serif;
+  top: 50px;
+  right: 45px;
+  width: 400px;
+  height: 75%;
+  margin-left: 850px;
+  margin-right: auto;
+  width: 300px;
+  bottom: 2px;
+  text-align: left;
+}*/
+/*.northamerica1 img {
+  margin-right: 100px;
+  margin-left: 700px;
+  margin-top: -585px;
+  margin-bottom: 30px;
+}*/
+  /*Format for Africa Group 2 photos (right side)*/
+/*.northamerica2 img {
+  margin-right: 600px;
+  margin-left: 200px;
+  margin-top: -685px;
+  margin-bottom: 55px;
+}*/
+  /*Format for country titles*/
+/*.northamerica1 h3 {
+  margin-left: 130px;
+}
+.northamerica2 h3 {
+  margin-left: 850px;
+  margin-right: auto;
+}*/
+/*EUROPE EUROPE EUROPE EUROPE EUROPE EUROPE EUROPE EUROPE EUROPE EUROPE EUROPE!!!!!!!!!!*/
+/*.europe1 {
+  background: #ffffff;
+  height: 400px;
+}
+.europe2 {
+  background-color:	#ffffff;
+  height: 400px;
+}*/
+#europepic {
+  overflow: auto;
+  position: relative;
+}
+#europepic img {
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-top: 4px;
+  background-position: 25px;
+}
+#europeinfo p {
+  font-size: 18px;
+  font-family: 'Crimson Text', serif;
+  position: absolute;
+  top: 70px;
+  right: 45px;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  width: 50%;
+}
+  /*Format for text in <p>*/
+/*.europe1 p {
+  font-size: 18px;
+  font-family: 'Crimson Text', serif;
+  top: 50px;
+  right: 15px;
+  width: 400px;
+  height: 75%;
+  margin-left: 130px;
+  margin-right: auto;
+  width: 300px;
+  bottom: 2px;
+  text-align: left;
+}
+.europe2 p {
+  font-size: 18px;
+  font-family: 'Crimson Text', serif;
+  top: 50px;
+  right: 45px;
+  width: 400px;
+  height: 75%;
+  margin-left: 850px;
+  margin-right: auto;
+  width: 300px;
+  bottom: 2px;
+  text-align: left;
+}*/
+  /*Format for Africa Group 1 photos (left side)*/
+/*.europe1 img {
+  margin-right: 100px;
+  margin-left: 700px;
+  margin-top: -585px;
+  margin-bottom: 30px;
+}*/
+  /*Format for Africa Group 2 photos (right side)*/
+/*.europe2 img {
+  margin-right: 600px;
+  margin-left: 200px;
+  margin-top: -685px;
+  margin-bottom: 55px;
+}*/
+  /*Format for country titles*/
+/*.europe1 h3 {
+  margin-left: 130px;
+}
+.europe2 h3 {
+  margin-left: 850px;
+  margin-right: auto;
+}*/
+/*OCEANIA  OCEANIA OCEANIA OCEANIA OCEANIA OCEANIA OCEANIA OCEANIA OCEANIA!!!!!!!!!!!!*/
+/*.oceania1 {
+  background: #ffffff;
+  height: 400px;
+}*/
+#oceaniapic {
+  overflow: auto;
+  position: relative;
+}
+#oceaniapic img {
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-top: 4px;
+  background-position: 25px;
+}
+#oceaniainfo p {
+  font-size: 18px;
+  font-family: 'Crimson Text', serif;
+  position: absolute;
+  top: 70px;
+  right: 45px;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  width: 50%;
+}
+/*.oceania1 p {
+  font-size: 18px;
+  font-family: 'Crimson Text', serif;
+  top: 50px;
+  right: 15px;
+  width: 400px;
+  height: 75%;
+  margin-left: 130px;
+  margin-right: auto;
+  width: 300px;
+  bottom: 2px;
+  text-align: left;
+}
+.oceania1 h3 {
+  margin-left: 130px;
+}
+.oceania1 img {
+  margin-right: 100px;
+  margin-left: 700px;
+  margin-top: -585px;
+  margin-bottom: 30px;
+}*/
